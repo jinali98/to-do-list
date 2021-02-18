@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  min-height: 100vh;
+  background: linear-gradient(to right top, #a356c2, #eb88ca ,#a356f8, #df8ac8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  background: white;
+  min-height: 80vh;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right top, rgba(255,255,255,0.7), rgba(255,255,255,0.5));
+  backdrop-filter: blur(2rem);
+  padding: 5px;
+  
+}
+
+input{
+  width: 40%;
+  min-height: 40px;
+}
+
+button{
+  width: 8%;
+  cursor: pointer;
+}
+
+
+input, button{
+  margin: 50px 10px;
+  border: 1px solid rgb(236, 217, 217);
+  border-radius: 0.5rem;
+  background: whitesmoke;
+  color: rgb(17, 16, 16);
+  font-size: 1.5rem;
+  padding: 5px;
+  font-weight: 500;
+}
+
+.todos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+p{
+  background: white;
+  width: 30%;
+  min-height: 40px;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right top, rgba(255,255,255,0.7), rgba(255,255,255,0.5));
+  backdrop-filter: blur(2rem);
+  color: rgb(10, 0, 0);
+  font-size: 1.5rem;
+  padding: 5px;
+  font-weight: 500;
+  border: 1px solid gray;
+  box-shadow: 3px 3px 2px rgb(197, 87, 207);
+  text-transform: capitalize;
+}
+.remove{
+  margin: 0 10px;
+  width: 5%;
+  border-radius: 10%;
+  box-shadow: 3px 3px 2px rgb(197, 87, 207);
+}
+
